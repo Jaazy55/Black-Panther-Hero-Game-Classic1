@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e796af2bdbd2ddfe2f4c5ff1750f83, type: 3}
+  m_Name: "WaveFistAttack"
+  m_EditorClassIdentifier: 
+  m_MinDamage: 5
+  m_MaxDamage: 10
+  m_ModifierCollection:
+    m_modifierProbabilities:
+    - m_modifier: {fileID: 11400000, guid: 0a429d9c57654f62ac2afe071e46c84b, type: 2}
+      m_probability: 100
+  m_AttackClip: {fileID: 7400000, guid: 895ba0ea171b41bb82dff1504e13491a, type: 2}
+  m_AttackDelay: 1
+  m_OverrideName: "Action"
+  m_EnterConditions: []
+  m_StayConditions:
+  - m_Name: "Action"
+    m_Type: 4
+    m_FloatValue: 0
+    m_IntValue: 0
+    m_BoolValue: 1
+  m_ExitConditions:
+  - m_Name: "Action"
+    m_Type: 4
+    m_FloatValue: 0
+    m_IntValue: 0
+    m_BoolValue: 0
+  m_NormalizeDelay: 0.3821656

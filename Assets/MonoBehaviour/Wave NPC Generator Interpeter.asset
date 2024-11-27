@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f8c12cb7ebc002cdee0b224b4bbb53, type: 3}
+  m_Name: "Wave NPC Generator Interpeter"
+  m_EditorClassIdentifier: 
+  StartDelay: 0
+  m_GenerateTime: 0.3
+  m_SpawnPoints:
+  - position: {x: 637, y: 99.85, z: -1549}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+  - position: {x: 634.95, y: 99.85, z: -1549}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+  - position: {x: 639.05, y: 99.85, z: -1549}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+  - position: {x: 638.16, y: 99.85, z: -1551.68}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+  - position: {x: 635.84, y: 99.85, z: -1551.68}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+  - position: {x: 637, y: 99.85, z: -1605}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: 634.95, y: 99.85, z: -1605}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: 634.95, y: 99.85, z: -1605}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: 635.84, y: 99.85, z: -1602.32}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: 638.16, y: 99.85, z: -1602.32}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: 609, y: 99.85, z: -1577}
+    rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  - position: {x: 609, y: 99.85, z: -1579.05}
+    rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  - position: {x: 609, y: 99.85, z: -1574.95}
+    rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  - position: {x: 611.68, y: 99.85, z: -1575.84}
+    rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  - position: {x: 611.68, y: 99.85, z: -1578.16}
+    rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  - position: {x: 665, y: 99.85, z: -1577}
+    rotation: {x: 0, y: 0.7071068, z: 0, w: -0.7071068}
+  - position: {x: 665, y: 99.85, z: -1574.95}
+    rotation: {x: 0, y: 0.7071068, z: 0, w: -0.7071068}
+  - position: {x: 665, y: 99.85, z: -1579.05}
+    rotation: {x: 0, y: 0.7071068, z: 0, w: -0.7071068}
+  - position: {x: 662.32, y: 99.85, z: -1578.16}
+    rotation: {x: 0, y: 0.7071068, z: 0, w: -0.7071068}
+  - position: {x: 662.32, y: 99.85, z: -1575.84}
+    rotation: {x: 0, y: 0.7071068, z: 0, w: -0.7071068}
+  m_SpawnMask:
+    serializedVersion: 2
+    m_Bits: 45056
+  m_SpawnRadius: 1.5
+  dataArrays:
+  - CycleCount: -1
+    Database:
+    - {fileID: 11400000, guid: 7db65606421841e58bdce0fa9c25800a, type: 2}
+    - {fileID: 11400000, guid: f82800f1f1d042c19e2b2c92e3937d18, type: 2}
+    - {fileID: 11400000, guid: 85793123d3154fbab611e51004c0e5d4, type: 2}
+    - {fileID: 11400000, guid: b4b37daa933f4c3eb44039db4f40e241, type: 2}
+    - {fileID: 11400000, guid: 09b34b23128d46a9b70f287f5b924841, type: 2}
+    - {fileID: 11400000, guid: 3435b804f36c4575bf137add6f4931fc, type: 2}

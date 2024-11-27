@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97edb76a3d770b84b49c42a1df72063, type: 3}
+  m_Name: "SurvivalHitEntityModifier"
+  m_EditorClassIdentifier: 
+  HealthCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 25
+      inSlope: 0
+      outSlope: 0
+    - serializedVersion: 2
+      time: 3
+      value: 30
+      inSlope: 1.666667
+      outSlope: 10
+    - serializedVersion: 2
+      time: 6
+      value: 60
+      inSlope: 10
+      outSlope: 39.4952
+    - serializedVersion: 2
+      time: 11
+      value: 380
+      inSlope: 101.8117
+      outSlope: 125.885
+    - serializedVersion: 2
+      time: 15
+      value: 1200
+      inSlope: 159.5427
+      outSlope: 159.5427
+    - serializedVersion: 2
+      time: 20
+      value: 2000
+      inSlope: 130
+      outSlope: 130
+    - serializedVersion: 2
+      time: 25
+      value: 2500
+      inSlope: 100
+      outSlope: 100
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  HealthInfiniteCoef: 100
+  HealthInfiniteOffset: 0
+  m_Attacks:
+  - {fileID: 11400000, guid: 8ef1c712a7b3460ead4476110d0478ac, type: 2}

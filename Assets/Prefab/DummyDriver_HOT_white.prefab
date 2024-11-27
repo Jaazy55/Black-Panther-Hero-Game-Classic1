@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1790112742930802838}
+  m_IsPrefabParent: 1
+--- !u!4 &1790112742930818851
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930802838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790112742930802838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790112742930818851}
+  - component: {fileID: 1790112742930842193}
+  m_Layer: 0
+  m_Name: "DummyDriver_HOT_white"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790112742930842193
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930802838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9357c8f4cd2803c6111b0e67b51b0997, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DriverModel: {fileID: 1790112742930800645, guid: 63cee4c7e95546c4e9d00361b9fa240e, type: 2}
+  DriverNPC: {fileID: 1790112742930798150, guid: fa5820db4e7e94e4992ca2cfd34a539f, type: 2}
+  DriverVehStatusPrefab: {fileID: 1790112742930802535, guid: 289972941e8ec4e41aa52d1f11ba9309, type: 2}
+  forceGetOutAnimationLength: 3
+  getOutAnimationLength: 2.8
+  DriverDead: 0
+  DriverStatus: {fileID: 0}

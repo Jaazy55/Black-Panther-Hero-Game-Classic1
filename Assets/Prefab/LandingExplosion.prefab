@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1790112742930804515}
+  m_IsPrefabParent: 1
+--- !u!4 &1790112742930816422
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930804515}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -155.7247, y: -5.31259, z: 2.375225}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790112742930804515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790112742930816422}
+  - component: {fileID: 1790112742930842326}
+  m_Layer: 0
+  m_Name: "LandingExplosion"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790112742930842326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930804515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdff3d1489a7c668aeedc6e56144a7fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AffectedLayerMask:
+    serializedVersion: 2
+    m_Bits: 45056
+  ExplosionBlockerLayerMask:
+    serializedVersion: 2
+    m_Bits: 134234384
+  ExplosionFxPrefab: {fileID: 1790112742930801214, guid: 8bc44ebb11e9bc1428da783a2d54b106, type: 2}
+  ExplosionRange: 10
+  MaxDamage: 100
+  DamageType: 3
+  MinDamageToReplaceHumanOnRagdoll: 10
+  ChangeHumanOnRagdoll: 1
+  MaxForce: 700
+  ForceMultipliers:
+    none: 1
+    car: 15
+    motorcycle: 10
+    human: 0.1
+    ragdoll: 1
+    PDO: 1
+    hevyVehicle: 0.3

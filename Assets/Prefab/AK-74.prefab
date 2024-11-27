@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1790112742930812480}
+  m_IsPrefabParent: 1
+--- !u!114 &114336551545942184
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930812480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7664f8e0b7a31444184956f8e9a0b222, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinigunPrefab: {fileID: 1790112742930842598}
+  LauncherPrefab: {fileID: 0}
+--- !u!1 &1790112742930808616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790112742930827426}
+  m_Layer: 0
+  m_Name: Muzzle
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790112742930809427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790112742930829935}
+  - component: {fileID: 1790112742930843020}
+  m_Layer: 0
+  m_Name: LeftIKHandTarger
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790112742930811241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790112742930833912}
+  - component: {fileID: 1790112742930838088}
+  - component: {fileID: 1790112742930836197}
+  m_Layer: 0
+  m_Name: AK74
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790112742930811549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790112742930828533}
+  m_Layer: 0
+  m_Name: LeftIKHintTarger
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790112742930812480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790112742930831968}
+  - component: {fileID: 1790112742930842598}
+  - component: {fileID: 114336551545942184}
+  m_Layer: 0
+  m_Name: AK-74
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1790112742930827426
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930808616}
+  m_LocalRotation: {x: -0.444752, y: 0.5547535, z: 0.4454722, w: -0.5440577}
+  m_LocalPosition: {x: -0.006663383, y: -0.0002336093, z: 0.001118302}
+  m_LocalScale: {x: 0.01333333, y: 0.01333333, z: 0.01333333}
+  m_Children: []
+  m_Father: {fileID: 1790112742930833912}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790112742930828533
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930811549}
+  m_LocalRotation: {x: -0.3987424, y: 0.05559049, z: -0.007329282, w: 0.9153473}
+  m_LocalPosition: {x: -0.1324, y: -0.1069, z: 0.1213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1790112742930829935}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790112742930829935
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930809427}
+  m_LocalRotation: {x: -0.5717297, y: 0.7552437, z: 0.197681, w: -0.2522981}
+  m_LocalPosition: {x: -0.002658286, y: 0.0005111045, z: 0.0001957889}
+  m_LocalScale: {x: 0.01333334, y: 0.01333333, z: 0.01333333}
+  m_Children:
+  - {fileID: 1790112742930828533}
+  m_Father: {fileID: 1790112742930833912}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790112742930831968
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930812480}
+  m_LocalRotation: {x: 0.1170092, y: 0.7235802, z: -0.09801411, w: 0.6731521}
+  m_LocalPosition: {x: 210.729, y: 1.401321, z: -584.6543}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1790112742930833912}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790112742930833912
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930811241}
+  m_LocalRotation: {x: 0.4726732, y: -0.6984631, z: -0.4104835, w: -0.3467459}
+  m_LocalPosition: {x: 0.0392, y: 0.032, z: -0.0749}
+  m_LocalScale: {x: 80.00025, y: 80.00015, z: 80.00018}
+  m_Children:
+  - {fileID: 1790112742930829935}
+  - {fileID: 1790112742930827426}
+  m_Father: {fileID: 1790112742930831968}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1790112742930836197
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930811241}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2d0567c88224429cb7cc694fe3e47ab8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1790112742930838088
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930811241}
+  m_Mesh: {fileID: 4300000, guid: 7afb5707687341b08234d3dfae44662b, type: 2}
+--- !u!114 &1790112742930842598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930812480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970d8cf390429a085cac4a12316efe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugLog: 0
+  Archetype: 0
+  Type: 2
+  AmmoType: 2
+  WeaponNameInList: 11
+  Name: 
+  AttackDistance: 0
+  Damage: 60
+  WeaponDamageType: 2
+  DefenceIgnorence: 0
+  AttackDelay: 0.05
+  SoundAttack: {fileID: 8300000, guid: a66af58374744c08aca188d0fd1a35ff, type: 3}
+  SoundHit: {fileID: 8300000, guid: 817ad9676fa7450989e3c2009ea532d7, type: 3}
+  image: {fileID: 21300000, guid: 49200f36f9f34c3199d450cda53693ac, type: 3}
+  Unique: 0
+  WeaponObjects:
+  - {fileID: 1790112742930812480}
+  AimOffset: {x: 0, y: -0.3}
+  lastAttackTime: 0
+  RangedWeaponType: 4
+  BigGun: 0
+  ShotSfx: 0
+  Tracer: {fileID: 1790112742930799420, guid: 7b44120b620b0dd418bbe96aa57db37d, type: 2}
+  RechargeSound: {fileID: 8300000, guid: 7cc682e226304ea29441ab54c6c7701e, type: 3}
+  ShotgunBulletsCount: 8
+  RechargeDelay: 2.1
+  ScatterAngle: 2
+  FireKickPower: 0.5
+  IsFiniteAmmo: 1
+  ShootAlarmRange: 50
+  Muzzle: {fileID: 1790112742930827426}
+  IgnoreMuzzleDirection: 0
+  IsRecharging: 0
+  AmmoContainer: {fileID: 0}
+  RangedFireDistanceNPC: 15
+  AmmoCartridgeCapacity: 30
+  AmmoOutOfCartridgeCount: 0
+  EnergyCost: 0
+  LastHitDirectionVector: {x: 0, y: 0, z: 0}
+  LastHitPosition: {x: 0, y: 0, z: 0}
+--- !u!114 &1790112742930843020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790112742930809427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57305b725ec1417d4d81395b77f25613, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftHandHintOnWeapon: {fileID: 1790112742930828533}
